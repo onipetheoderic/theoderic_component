@@ -12798,6 +12798,24 @@ theoderic_component@^2.0.0:
     styled-components "^5.3.5"
     theoderic_component "^1.0.0"
 
+theoderic_component@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/theoderic_component/-/theoderic_component-3.0.0.tgz#f4d10c0c8525f8bc4df4df946dfda45c137fe0d9"
+  integrity sha512-eJ8w2j8WfpGaf8l2EZxtdZsUrtDCEgfUl/treKGdqq4sKf4outfBEvraWO9lAjuXXy7maNk3N+OHEPLZRDLp4g==
+  dependencies:
+    "@etchteam/storybook-addon-status" "^4.2.1"
+    "@storybook/addon-a11y" "^6.5.10"
+    "@storybook/addon-actions" "^6.5.10"
+    "@storybook/addon-controls" "^6.5.10"
+    "@storybook/addon-docs" "^6.5.10"
+    "@storybook/addon-knobs" "^6.4.0"
+    "@storybook/addon-viewport" "^6.5.10"
+    storybook-addon-designs "^6.3.1"
+    storybook-addon-jsx "^7.3.14"
+    storybook-addon-outline "^1.4.2"
+    styled-components "^5.3.5"
+    theoderic_component "^2.0.0"
+
 throat@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/throat/-/throat-5.0.0.tgz#c5199235803aad18754a667d659b5e72ce16764b"

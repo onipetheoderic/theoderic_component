@@ -93,7 +93,7 @@
     "storybook-addon-jsx": "^7.3.14",
     "storybook-addon-outline": "^1.4.2",
     "styled-components": "^5.3.5",
-    "theoderic_component": "^2.0.0"
+    "theoderic_component": "^3.0.0"
   },
   "readme": "ERROR: No README data found!"
 }
