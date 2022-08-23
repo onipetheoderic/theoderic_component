@@ -19,7 +19,8 @@
     "size": "size-limit",
     "analyze": "size-limit --why",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=301df9f26c81"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -36,7 +37,9 @@
     "trailingComma": "es5"
   },
   "name": "theoderic-components",
-  "author": "theoderic",
+  "author": {
+    "name": "theoderic"
+  },
   "module": "dist/theoderic-components.esm.js",
   "size-limit": [
     {
@@ -81,5 +84,7 @@
     "storybook-addon-jsx": "^7.3.14",
     "storybook-addon-outline": "^1.4.2",
     "styled-components": "^5.3.5"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "theoderic-components@0.1.0"
 }
