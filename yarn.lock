@@ -12763,6 +12763,23 @@ text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==
 
+theoderic_component@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/theoderic_component/-/theoderic_component-1.0.0.tgz#463a6e3f7f3695ce64e050b0a46b9a1eef26787d"
+  integrity sha512-abLi6HWsFu2T+/6QX/hifRzFPP8zj7sk9fr7KhcZggM19/awVXRGzw1tcBQveKRGm2PXwVRnFd2yMlYqBr6DBg==
+  dependencies:
+    "@etchteam/storybook-addon-status" "^4.2.1"
+    "@storybook/addon-a11y" "^6.5.10"
+    "@storybook/addon-actions" "^6.5.10"
+    "@storybook/addon-controls" "^6.5.10"
+    "@storybook/addon-docs" "^6.5.10"
+    "@storybook/addon-knobs" "^6.4.0"
+    "@storybook/addon-viewport" "^6.5.10"
+    storybook-addon-designs "^6.3.1"
+    storybook-addon-jsx "^7.3.14"
+    storybook-addon-outline "^1.4.2"
+    styled-components "^5.3.5"
+
 throat@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/throat/-/throat-5.0.0.tgz#c5199235803aad18754a667d659b5e72ce16764b"
