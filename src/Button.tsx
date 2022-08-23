@@ -1,6 +1,6 @@
-import React, { ReactNode, HTMLAttributes } from 'react';
+import React, { ReactNode, ComponentProps } from 'react';
 
-export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
+export type ButtonProps = {
   /** Provides a Text for the button */
 
   children: ReactNode;
@@ -8,7 +8,7 @@ export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
   /** Which variant look would you like to use */
 
   variant: 'primary' | 'secondary';
-}
+} & ComponentProps<'button'>;
 
 /** This is a Special Button */
 export const Button = ({
