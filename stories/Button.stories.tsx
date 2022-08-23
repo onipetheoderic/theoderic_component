@@ -1,6 +1,6 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Button, ButtonProps } from '../src/components';
+import { Button, ButtonProps } from '../src';
 import { action } from '@storybook/addon-actions';
 import { jsxDecorator } from 'storybook-addon-jsx';
 
