@@ -10,7 +10,7 @@ const meta: Meta = {
   argTypes: {
     onClick: { action: 'clicked' },
     children: {
-      defaultValue: 'Default Text',
+      defaultValue: 'Default Text For Button',
     },
   },
   decorators: [jsxDecorator],
