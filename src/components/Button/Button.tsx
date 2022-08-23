@@ -24,7 +24,7 @@ const Button = ({
         cursor: 'pointer',
         color: 'white',
         borderRadius: 20,
-        backgroundColor: variant === 'primary' ? 'green' : 'gray',
+        backgroundColor: variant === 'primary' ? 'blue' : 'gray',
       }}
     >
       {children}
