@@ -1,28 +1,17 @@
-# TSDX React w/ Storybook User Guide
+# Theoderic Component Library
 
-Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
+Congrats! You just saved yourself hours of work by bootstrapping this project with the `@theoderic-ui` UI Library
 
-> This TSDX setup is meant for developing React component libraries (not apps!) that can be published to NPM. If you’re looking to build a React-based app, you should use `create-react-app`, `razzle`, `nextjs`, `gatsby`, or `react-static`.
-
-> If you’re new to TypeScript and React, checkout [this handy cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet/)
-
-## Commands
-
-TSDX scaffolds your new library inside `/src`, and also sets up a [Parcel-based](https://parceljs.org) playground for it inside `/example`.
-
-The recommended workflow is to run TSDX in one terminal:
+## HOW TO INSTALL
 
 ```bash
-npm start # or yarn start
+  yarn add theoderic_component
+  npm install theoderic_component
 ```
-
-This builds to `/dist` and runs the project in watch mode so any edits you save inside `src` causes a rebuild to `/dist`.
-
-Then run either Storybook or the example playground:
 
 ### Storybook
 
-Run inside another terminal:
+The Documentation is better displayed in Storybook UI published in Chromatic
 
 ```bash
 yarn storybook
