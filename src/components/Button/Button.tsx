@@ -23,7 +23,7 @@ const Button = ({
         padding: 20,
         cursor: 'pointer',
         color: 'white',
-        borderRadius: 20,
+        borderRadius: 22,
         backgroundColor: variant === 'primary' ? 'blue' : 'gray',
       }}
     >
