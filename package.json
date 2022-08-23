@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "3.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -36,9 +36,18 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "theoderic-components",
+  "name": "theoderic_component",
+  "keywords": [
+    "React",
+    "Components",
+    "Theoderic",
+    "Theoderic Ohinoyi",
+    "Onipe",
+    "react-components-library",
+    "react-components"
+  ],
   "author": {
-    "name": "theoderic"
+    "name": "Theoderic Ohinoyi Onipe"
   },
   "module": "dist/theoderic-components.esm.js",
   "size-limit": [
@@ -83,8 +92,8 @@
     "storybook-addon-designs": "^6.3.1",
     "storybook-addon-jsx": "^7.3.14",
     "storybook-addon-outline": "^1.4.2",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "theoderic_component": "^3.0.0"
   },
-  "readme": "ERROR: No README data found!",
-  "_id": "theoderic-components@0.1.0"
+  "readme": "ERROR: No README data found!"
 }

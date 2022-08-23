@@ -11,7 +11,7 @@ export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
 }
 
 /** This is a Special Button */
-const Button = ({
+export const Button = ({
   children = 'button',
   variant = 'primary',
   ...props
@@ -31,5 +31,3 @@ const Button = ({
     </button>
   );
 };
-
-export default Button;
