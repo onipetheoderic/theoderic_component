@@ -12837,6 +12837,24 @@ theoderic_component@^1.0.0:
     storybook-addon-outline "^1.4.2"
     styled-components "^5.3.5"
 
+theoderic_component@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/theoderic_component/-/theoderic_component-1.0.1.tgz#efd4fcd852def29c473da06a777449198b526551"
+  integrity sha512-m3JGXAeMOA6gPa1sIZ4FaBy0psLYzDCUou3uQI7lvuUIvKTFkiQU3OsfqmYA6JVGu+CUs/K4UuAhJFVfTz8ewA==
+  dependencies:
+    "@etchteam/storybook-addon-status" "^4.2.1"
+    "@storybook/addon-a11y" "^6.5.10"
+    "@storybook/addon-actions" "^6.5.10"
+    "@storybook/addon-controls" "^6.5.10"
+    "@storybook/addon-docs" "^6.5.10"
+    "@storybook/addon-knobs" "^6.4.0"
+    "@storybook/addon-viewport" "^6.5.10"
+    storybook-addon-designs "^6.3.1"
+    storybook-addon-jsx "^7.3.14"
+    storybook-addon-outline "^1.4.2"
+    styled-components "^5.3.5"
+    theoderic_component "^3.0.0"
+
 theoderic_component@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/theoderic_component/-/theoderic_component-2.0.0.tgz#ae146efe81cf35cacc1f76b5743f76794ce7dc49"

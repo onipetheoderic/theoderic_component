@@ -4,8 +4,15 @@ import { Button } from '../src';
 
 describe('Button', () => {
   it('renders without crashing', () => {
-    render(<Button variant="primary">Click me</Button>);
-    expect(screen.queryByText('Click me')).toBeTruthy();
+    render(<Button variant="primary">hello world</Button>);
+    expect(screen.queryByText('hello world')).toBeTruthy();
+  });
+
+  it('color is gray when it is secondary', () => {
+    render(<Button variant="secondary">hello</Button>);
+    const element = screen.getByText('hello');
+    const styles = getComputedStyle(element);
+    expect(styles.backgroundColor).toBe('gray');
   });
 
   it('renders a clickable button', () => {
