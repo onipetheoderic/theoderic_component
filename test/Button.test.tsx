@@ -12,7 +12,7 @@ describe('Button', () => {
     render(<Button variant="secondary">hello</Button>);
     const element = screen.getByText('hello');
     const styles = getComputedStyle(element);
-    expect(styles.backgroundColor).toBe('gray');
+    expect(styles.backgroundColor).toBe('blue');
   });
 
   it('renders a clickable button', () => {
