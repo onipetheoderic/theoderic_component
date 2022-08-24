@@ -11,11 +11,7 @@ export type ButtonProps = {
 } & ComponentProps<'button'>;
 
 /** This is a Special Button */
-export const Button = ({
-  children = 'button',
-  variant = 'primary',
-  ...props
-}: ButtonProps) => {
+export const Button = ({ children, variant, ...props }: ButtonProps) => {
   return (
     <button
       {...props}
@@ -24,7 +20,7 @@ export const Button = ({
         cursor: 'pointer',
         color: 'white',
         borderRadius: 22,
-        backgroundColor: variant === 'primary' ? 'blue' : 'gray',
+        backgroundColor: variant === 'secondary' ? 'blue' : 'gray',
       }}
     >
       {children}

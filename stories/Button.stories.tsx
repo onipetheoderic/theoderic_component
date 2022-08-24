@@ -34,4 +34,5 @@ Secondary.args = {
   title: 'secondary Button',
   children: 'I am secondary',
   onClick: action('secondary click'),
+  variant: 'secondary',
 };
